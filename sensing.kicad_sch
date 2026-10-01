@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "725c4095-3d52-427b-b661-217f8c465565")
+	(uuid "a12cabf5-ad3a-456c-a551-968777ac9d9e")
 	(paper "A4")
 	(title_block
 		(title "500 W Overcurrent Monitor")
