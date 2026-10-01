@@ -13,6 +13,392 @@
 		(comment 2 "Electronics recruitment test")
 	)
 	(lib_symbols)
+	(text_box "FUNCTION\nOpens relay K301 when the load absorbs more than 500 W and keeps it open\nuntil the monitor is power cycled.\n"
+		(exclude_from_sim no)
+		(at 177.8 16.51 0)
+		(size 102.87 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "88109136-aad8-42f9-8ae3-f22688b9e2b5")
+	)
+	(wire
+		(pts
+			(xy 113.03 142.24) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fa0929-2185-4936-8122-607645096ce3")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 68.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286fc896-06c9-4400-aa44-01555ee7041c")
+	)
+	(wire
+		(pts
+			(xy 78.74 148.59) (xy 78.74 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399cfa5e-0f73-42c7-aa56-1fee93c17586")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bae5dd9-67a9-41c7-ad04-cf86484bf0e0")
+	)
+	(wire
+		(pts
+			(xy 73.66 142.24) (xy 113.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d698b3e-bbf7-4b1a-abe7-b4aed877a6e4")
+	)
+	(wire
+		(pts
+			(xy 177.8 123.19) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9273eeb1-7291-4515-abd0-04d747a80b0e")
+	)
+	(wire
+		(pts
+			(xy 107.95 144.78) (xy 107.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6a5e45-7ace-4570-82b6-2eb9feb751fb")
+	)
+	(wire
+		(pts
+			(xy 78.74 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8222fa3-ac87-4f03-9179-643e5083587b")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff30de98-1d98-4859-8eb5-44a9efdff01e")
+	)
+	(wire
+		(pts
+			(xy 73.66 148.59) (xy 73.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff384ce4-44b0-4da4-9610-518e2c1818f9")
+	)
+	(sheet
+		(at 13.97 16.51)
+		(size 115.57 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "38c0ea45-4d5d-483e-a262-8bc729021343")
+		(property "Sheetname" "Power"
+			(at 13.97 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 13.97 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 148.59)
+		(size 78.74 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5e39fbe6-f2b2-47d6-b0cb-2f6fe7168007")
+		(property "Sheetname" "Sensing"
+			(at 88.9 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensing.kicad_sch"
+			(at 88.9 194.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOAD_MID" passive
+			(at 107.95 148.59 90)
+			(uuid "32c19212-e40e-4107-9800-bfa5427f96df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD_OUT" passive
+			(at 113.03 148.59 90)
+			(uuid "cf2f372b-53bd-419f-94d2-fdcc7ca09c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_SENSE" output
+			(at 144.78 148.59 90)
+			(uuid "f3fb41d8-1380-405f-912f-69681bd3d842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 148.59)
+		(size 72.39 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf110655-c076-4860-b942-237db9e3ec5b")
+		(property "Sheetname" "Relay"
+			(at 13.97 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 13.97 193.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOAD_MID" passive
+			(at 78.74 148.59 90)
+			(uuid "279485bf-e36a-469f-8bb4-6ec3cd265a63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD_OUT" passive
+			(at 73.66 148.59 90)
+			(uuid "3c6d86df-102f-4af0-80bd-f123682f35c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_EN" input
+			(at 68.58 148.59 90)
+			(uuid "a0dbea0b-a9e5-4f90-9073-46287cda9e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 64.77)
+		(size 97.79 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de4563bf-79b3-42ba-892a-f16b1f454c35")
+		(property "Sheetname" "Trip Logic"
+			(at 177.8 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trip_logic.kicad_sch"
+			(at 177.8 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_EN" output
+			(at 177.8 118.11 180)
+			(uuid "77b232bc-7d44-4ada-bf9e-388a909399e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SENSE" input
+			(at 177.8 123.19 180)
+			(uuid "57b3de69-b688-4995-ab26-e88f002142ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

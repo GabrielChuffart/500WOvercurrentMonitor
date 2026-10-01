@@ -567,7 +567,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -713,6 +713,22 @@
     [
       "bdc7face-9f7c-4701-80bb-4cc144448db1",
       "recruitment"
+    ],
+    [
+      "38c0ea45-4d5d-483e-a262-8bc729021343",
+      "Power"
+    ],
+    [
+      "cf110655-c076-4860-b942-237db9e3ec5b",
+      "Relay"
+    ],
+    [
+      "5e39fbe6-f2b2-47d6-b0cb-2f6fe7168007",
+      "Sensing"
+    ],
+    [
+      "de4563bf-79b3-42ba-892a-f16b1f454c35",
+      "Trip Logic"
     ]
   ],
   "text_variables": {},
