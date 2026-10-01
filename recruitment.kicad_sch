@@ -5,10 +5,12 @@
 	(uuid "bdc7face-9f7c-4701-80bb-4cc144448db1")
 	(paper "A4")
 	(title_block
-		(title "Template")
-		(date "2022-04-19")
-		(rev "V0")
+		(title "500 W Overcurrent Monitor")
+		(date "2026-10-01")
+		(rev "A")
 		(company "E-Agle TRT")
+		(comment 1 "Author: Gabriel Chuffart")
+		(comment 2 "Electronics recruitment test")
 	)
 	(lib_symbols)
 	(sheet_instances
