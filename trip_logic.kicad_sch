@@ -1,0 +1,38 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "160abb11-3639-4f62-886c-89b04171c335")
+	(paper "A4")
+	(title_block
+		(title "500 W Overcurrent Monitor")
+		(date "2026-10-01")
+		(rev "A")
+		(company "E-Agle TRT")
+		(comment 1 "Author: Gabriel Chuffart")
+		(comment 2 "Electronics recruitment test")
+	)
+	(lib_symbols)
+	(hierarchical_label "RELAY_EN"
+		(shape output)
+		(at 165.1 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35ebb668-19ce-47fd-a6d4-ea46116ad4f3")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape input)
+		(at 165.1 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55041a8c-99c9-4f22-abe3-88fa53f71d7c")
+	)
+)

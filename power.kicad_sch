@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "50af5edb-9389-44b9-bd48-cfeaeacc1404")
+	(paper "A4")
+	(title_block
+		(title "500 W Overcurrent Monitor")
+		(date "2026-10-01")
+		(rev "A")
+		(company "E-Agle TRT")
+		(comment 1 "Author: Gabriel Chuffart")
+		(comment 2 "Electronics recruitment test")
+	)
+	(lib_symbols)
+)
