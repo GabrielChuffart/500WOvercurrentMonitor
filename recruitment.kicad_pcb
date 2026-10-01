@@ -3,15 +3,17 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.635)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(title_block
-		(title "Template")
-		(date "2022-04-19")
-		(rev "V0")
+		(title "500 W Overcurrent Monitor")
+		(date "2026-10-01")
+		(rev "A")
 		(company "E-Agle TRT")
+		(comment 1 "Author: Gabriel Chuffart")
+		(comment 2 "Electronics recruitment test")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -62,14 +64,14 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 1.51)
+				(thickness 1.44)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.07)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
