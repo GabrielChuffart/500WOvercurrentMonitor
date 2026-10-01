@@ -59,7 +59,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"+VIN_PROT\""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -194,6 +194,28 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC00ADR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,6 +1212,28 @@
 				)
 			)
 		)
+		(property "MPN" "ACS781LLRTR-050B-T"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Allegro MicroSystems"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "hall effect current monitor sensor isolated"
 			(at 0 0 0)
 			(show_name no)
@@ -1479,6 +1523,28 @@
 				)
 			)
 		)
+		(property "MPN" "MAX809STRG"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "supply voltage supervisor"
 			(at 0 0 0)
 			(show_name no)
@@ -1624,6 +1690,28 @@
 			)
 		)
 		(property "Description" "Dual high voltage, low power comparator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV1702AIDGKR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,6 +2010,28 @@
 			)
 		)
 		(property "Description" "High-Voltage Ultra-Low IQ Low-Dropout Regulator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS7B6933QDCYRQ1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
