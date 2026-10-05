@@ -2411,7 +2411,7 @@
 				)
 			)
 		)
-		(property "Value" "GE9J"
+		(property "Value" "G9EJ-1-P-E-UVD DC12"
 			(at 48.26 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
 			(at 25.4 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3117,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
 			(at 82.55 27.94 0)
 			(hide yes)
 			(show_name no)
