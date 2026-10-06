@@ -1,4 +1,4 @@
-**500 W overcurrent monitor*
+**500 W overcurrent monitor**
 E-Agle TRT recruitment - Gabriel Chuffart - KiCad 10
 
 **Overview**
