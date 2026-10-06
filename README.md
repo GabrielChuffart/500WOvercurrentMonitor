@@ -1,3 +1,24 @@
+**500 W overcurrent monitor*
+E-Agle TRT recruitment - Gabriel Chuffart - KiCad 10
+
+**Overview**
+A hardware-only monitor (no programmable logic) that opens a relay in series with the load
+as soon as the load could exceed 500 W, and keeps it open until the monitor is power-cycled.
+The load current is measured by an Allegro ACS781 Hall-effect sensor and compared with two
+thresholds, a NAND-gate latch then drives the relay.
+
+**Principle**
+ACS781 Hall sensor (U401) -> RC filter -> two comparators (U501) -> NAND latch (U503) -> coil driver (Q301, Q302) → relay K301.
+
+**Circuit characteristics:**
+- Trip at 8.7A : 500W / 48V = 10.42A, minus the ±1.59A worst-case error -> It trips between 7.1 and 10.3A, so never above 500W from 24 to 48V.
+- latch cleared only at power-up, by MAX809S supervisor (U502).
+- Fail-safe: a dead or disconnected sensor (V_SENSE < 0.84V) also trips.
+- Coil driven at a constant ~78mA from 9 to 17V
+- Input: resettable fuse, TVS, P-MOSFET reverse-polarity protection, 3.3V LDO.
+
+
+
 # Recruitment for E-Agle TRT | Electronics division
 
 Welcome to the recruitment _test_ for the electronics team of E-Agle Trento Racing Team.
