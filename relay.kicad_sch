@@ -1413,7 +1413,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "monitor:GE9J-1-P-E-UVD"
+		(symbol "monitor:G9EJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1519,7 +1519,7 @@
 					)
 				)
 			)
-			(symbol "GE9J-1-P-E-UVD_0_0"
+			(symbol "G9EJ_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -1533,7 +1533,7 @@
 					)
 				)
 			)
-			(symbol "GE9J-1-P-E-UVD_0_1"
+			(symbol "G9EJ_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1677,7 +1677,7 @@
 					)
 				)
 			)
-			(symbol "GE9J-1-P-E-UVD_1_1"
+			(symbol "G9EJ_1_1"
 				(pin passive line
 					(at 7.62 7.62 270)
 					(length 2.54)
@@ -2230,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 71.12 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -2390,7 +2390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "monitor:GE9J-1-P-E-UVD")
+		(lib_id "monitor:G9EJ")
 		(at 48.26 36.83 90)
 		(unit 1)
 		(body_style 1)

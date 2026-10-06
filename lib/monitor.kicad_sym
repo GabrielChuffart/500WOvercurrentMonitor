@@ -1476,7 +1476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GE9J-1-P-E-UVD DC12"
+		(property "Value" "G9EJ-1-P-E-UVD DC12"
 			(at 11.43 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
