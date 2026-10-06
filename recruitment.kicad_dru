@@ -6,3 +6,6 @@
 (rule "Open relay contacts"
   (constraint clearance (min 2mm))
   (condition "A.NetName == '*LOAD_IN' && B.NetClass == 'Power' && B.NetName != '*LOAD_IN'"))
+(rule "U501 fine pitch"
+  (constraint clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('U501') && B.memberOfFootprint('U501')"))
