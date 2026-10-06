@@ -1,0 +1,8 @@
+
+(version 1)
+(rule "48V vs 3V3"
+  (constraint clearance (min 2mm))
+  (condition "A.NetClass == 'Power' && B.NetClass != 'Power'"))
+(rule "Open relay contacts"
+  (constraint clearance (min 2mm))
+  (condition "A.NetName == '*LOAD_IN' && B.NetClass == 'Power' && B.NetName != '*LOAD_IN'"))
