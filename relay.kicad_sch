@@ -1869,7 +1869,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "COIL TURN-OFF PROTECTION - D301 (1N4148W) in series with D302 (18 V, 1 W Zener)\n\nWhen Q301 switches off, the coil current needs a path to not damage Q301\n\nOmron recommends diode + Zener for this relay (datasheet precaution 14)."
+	(text_box "COIL TURN-OFF PROTECTION - D301 (1N4148W) in series with D302 (18V, 1W Zener)\n\nWhen Q301 switches off, the coil current needs a path to not damage Q301\n\nOmron recommends diode + Zener for this relay (datasheet precaution 14)."
 		(exclude_from_sim no)
 		(at 90.17 82.55 0)
 		(size 58.42 19.05)

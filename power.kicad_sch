@@ -2458,7 +2458,7 @@
 		)
 		(uuid "a2c74665-f9ca-4e20-9c3e-2ed83d163bc8")
 	)
-	(text_box "3V3 RAIL\nU201 TPS7B6933-Q1: V_IN 4-40V (45 V abs max).\n\nC203 >= 0.1uF at input; \nC204 >= 2.2uF with ESR < 2ohm (LDO stability).\n\n3V3 tolerance (+-3 %) negligeable: ACS781 output and thresholds are both ratiometric to 3V3.\n\nD203: I = (3.3 - 2.0)V / 1k = 1.3mA."
+	(text_box "3V3 RAIL\nU201 TPS7B6933-Q1: V_IN 4-40V (45V abs max).\n\nC203 >= 0.1uF at input. \nC204 >= 2.2uF with ESR < 2ohm (LDO stability).\n\n3V3 tolerance (+-3 %) negligeable: ACS781 output and thresholds are both ratiometric to 3V3.\n\nD203: I = (3.3 - 2.0)V / 1k = 1.3mA."
 		(exclude_from_sim no)
 		(at 17.78 80.01 0)
 		(size 77.47 22.86)
